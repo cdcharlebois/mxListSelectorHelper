@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="ADPSelectorHelper.widget.ADPSelectorHelper" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>ADPSelectorHelper</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="_className" type="string" required="false" defaultValue="">
+            <caption>Class Name</caption>
+            <category>Appearance</category>
+            <description>Class to add</description>
+        </property>
+        <property key="rootEntity" type="entity" required="false" allowNonPersistableEntities="true">
+            <caption>Root Entity</caption>
+            <category>Appearance</category>
+            <description>Select a referenced entity to check for its presence.</description>
+        </property>
+        <property key="_referenceEntity" type="entity" required="false" entityProperty="rootEntity" isPath="yes" pathType="reference" allowNonPersistableEntities="true">
+            <caption>Reference To Check</caption>
+            <category>Appearance</category>
+            <description>Select a referenced entity to check for its presence.</description>
+        </property>
+    </properties>
+</widget>
